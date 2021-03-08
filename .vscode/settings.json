@@ -1,5 +1,13 @@
 {
     "python.linting.pylintEnabled": true,
     "python.pythonPath": "/home/overtonje/.pyenv/versions/3.8.1/bin/python",
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\\\\wsl$\\Ubuntu-18.04\\home\\overtonje\\workspace\\python\\levelup\\db.sqlite3",
+            "name": "levelupDb"
+        }
+    ]
 }
