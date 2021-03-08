@@ -4,6 +4,6 @@ from django.db import models
 
 class Game(models.Model):
     gamer = models.ForeignKey("Gamer", on_delete=models.CASCADE)
-    numberOfPlayers = models.IntegerField()
+    number_of_Players = models.IntegerField()
     title = models.CharField(max_length=50)
     description = models.CharField(max_length=250)
