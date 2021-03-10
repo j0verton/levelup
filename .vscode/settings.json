@@ -1,6 +1,6 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/home/overtonje/.pyenv/versions/3.8.1/bin/python",
+    "python.pythonPath": "/home/overtonje/.local/share/virtualenvs/levelup-PXn5-Q7C/bin/python",
     "python.linting.enabled": true,
     "sqltools.connections": [
         {
